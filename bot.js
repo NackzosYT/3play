@@ -12,11 +12,11 @@ var jimp = require('jimp')
         const ms = require("ms");
 const dataPro = JSON.parse(fs.readFileSync('./walls.json', 'utf8'));
 let done = {};
-const prefix = '1'
+const prefix = '3'
 
 
 client.on('ready', () => {
-client.user.setGame(`1play | BloodForEver`,'https://www.twitch.tv/bloodserver');
+client.user.setGame(`3play | BloodForEver`,'https://www.twitch.tv/bloodserver');
 });
 
 
